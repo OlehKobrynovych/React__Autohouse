@@ -1,0 +1,52 @@
+.home-card {
+    margin: 5px 0;
+}
+
+.home-card__img {
+    width: 100%;
+}
+
+.home-card__title {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.home-card__text {
+    text-align: center;
+}
+
+.home-card__btn {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 16px;
+    cursor: pointer;
+    background: -webkit-linear-gradient(top, rgba(255,255,255,.2) 0,rgba(0,0,0,.1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,.2) 0,rgba(0,0,0,.1) 100%);
+    background-color: #ff8800;
+    color: #fff;
+    -webkit-box-shadow: 0 2px 1px rgb(50 50 50 / 50%), inset 0 1px 0 0 rgb(255 255 255 / 20%), inset 0 -1px 0 0 rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0 2px 1px rgba(50, 50, 50, 0.50), inset 0 1px 0 0 rgba(255,255,255,.2), inset 0 -1px 0 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 1px rgb(50 50 50 / 50%), inset 0 1px 0 0 rgb(255 255 255 / 20%), inset 0 -1px 0 0 rgb(0 0 0 / 20%);
+    border: none;
+}
+
+.home-card__btn:hover {
+    outline: 0 !important;
+    background-color: #ff6400;
+    box-shadow: 0 4px 8px rgb(50 50 50 / 60%), inset 0 1px 0 0 rgb(255 255 255 / 20%), inset 0 -1px 0 0 rgb(0 0 0 / 20%);
+}
+  
+@media (min-width: 768px) {
+   
+}
+  
+/* @media (min-width: 992px) {
+    .footer__top-wrap {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+} */
